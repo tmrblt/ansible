@@ -2,7 +2,7 @@
 - name: test playbook
   hosts: localhost
   tasks:
-  - name: Look up the VM called demo_app in the inventory
+  - name: Look up the VM called demo_aap in the inventory
     register: search_result
     vmware.vmware_rest.vcenter_vm_info:
       filter_names:
