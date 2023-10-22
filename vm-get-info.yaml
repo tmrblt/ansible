@@ -1,6 +1,6 @@
 ---
 - name: test playbook
-  hosts: all
+  hosts: localhost
   tasks:
   - name: Look up the VM called test_vm1 in the inventory
     register: search_result
